@@ -48,12 +48,15 @@ const Footer = () => {
               justifyContent: "space-between",
               paddingLeft: 150,
               textAlign: "left",
+              justifyItems: "center",
             }}
           >
             <div
               style={{
                 display: "flex",
                 flexDirection: "column",
+                justifyContent: "space-between",
+                justifyItems: "center",
               }}
             >
               <a href="#">
@@ -155,7 +158,7 @@ const Footer = () => {
                 <DownOutlined />
               </Button>
               <Modal
-                title="Basic Modal"
+                title="Choose a language"
                 visible={isModalVisible}
                 onOk={handleOk}
                 onCancel={handleCancel}

@@ -7,11 +7,17 @@
   pointer-events: none;
 }
 
+
+
 /* a {
   color: grey;
   text-align: left;
 } */
-
+.imageBG {
+  background-image: url("../src/assets/dropbox.png");
+  background-repeat: no-repeat;
+  background-position: 84% 25%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
